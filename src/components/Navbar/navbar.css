@@ -1,0 +1,45 @@
+.navbar {
+  width: 100%;
+  height: 59px;
+  background-color: #01013f;
+}
+
+.container-fluid {
+  background-color: #01013f;
+}
+
+.navbar-brand {
+  color: white !important;
+  text-shadow: 5.627px 3.095px 1.125px rgba(0, 0, 0, 0.25);
+  letter-spacing: 3.24px;
+  padding-left: 25px;
+  font: 900 27px Prompt, sans-serif;
+}
+
+.navbar-nav{
+    display: flex;
+    font-size: 15px;
+    gap: 25px;
+    font-weight: 400;
+    white-space: normal;
+    justify-content: space-between;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: Prompt, sans-serif;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .collapse{
+        padding-left: 25px;
+        margin-top: 25px;
+        
+    }
+}
+
+
